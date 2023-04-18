@@ -1,0 +1,17 @@
+.ps-6{
+    padding-left: 200em;
+}
+.w-150{
+    width: 1280px;
+}
+.lh-5{
+    height: 100px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.box{
+    display: flex;
+}
+.ps-7{
+    padding-left: 200px;
+}
