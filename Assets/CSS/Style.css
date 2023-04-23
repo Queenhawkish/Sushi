@@ -11,22 +11,42 @@
 }
 .boxt{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .imgcar{
     width: 100% ;
     height: 30em;
 }
 .box{
+    display: flex;
     width: 30%;
-    margin: 5em;
+    margin: 3em;
+    padding: 2em;
+    border: 1px solid black;
+    background-color: aquamarine;
 }
 .sushit{
     width: 100%;
     text-align: center;
     height: 2em;
     font-size: 50px;
-    color: blue;
+    color: rgb(170, 60, 48);
     font-weight: 900;
-    background-color: aquamarine;
+    background-color: rgb(1, 15, 1);
+    text-decoration: underline;
+}
+.wimg{
+    height: 10em;
+}
+@media (min-width: 300px) and (max-width: 990px){
+    .box {
+        display: flex;
+        width: 100%;
+    }
+    .boxt{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
 }
