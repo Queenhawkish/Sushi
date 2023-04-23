@@ -9,10 +9,24 @@
     font-size: 50px;
     text-decoration: underline;
 }
-.box{
+.boxt{
     display: flex;
+    justify-content: center;
 }
 .imgcar{
     width: 100% ;
     height: 30em;
+}
+.box{
+    width: 30%;
+    margin: 5em;
+}
+.sushit{
+    width: 100%;
+    text-align: center;
+    height: 2em;
+    font-size: 50px;
+    color: blue;
+    font-weight: 900;
+    background-color: aquamarine;
 }
